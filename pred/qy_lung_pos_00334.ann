@@ -1,0 +1,6 @@
+T1	first_level 0 2	双肺
+T2	first_level 25 27	双肺
+T3	second_level 27 29	下叶
+R1	from Arg1:T3 Arg2:T2	
+
+R1	from Arg1:T3 Arg2:T2

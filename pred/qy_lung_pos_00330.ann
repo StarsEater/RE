@@ -1,0 +1,11 @@
+T1	first_level 9 11	双肺
+T2	first_level 0 2	左肺
+T3	second_level 2 4	上叶
+R1	from Arg1:T3 Arg2:T2	
+T4	third_level 4 6	舌段
+R2	from Arg1:T4 Arg2:T3	
+R3	from Arg1:T4 Arg2:T2	
+
+R1	from Arg1:T4 Arg2:T3
+R2	from Arg1:T4 Arg2:T2
+R3	from Arg1:T3 Arg2:T2
